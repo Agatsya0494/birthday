@@ -1,0 +1,63 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Happy Birthday &#10024;</title><link rel="stylesheet" href="style.css"></head><body>
+<audio id="song" src="assets/song.mp3" preload="auto" loop playsinline></audio><div id="hint">&#10022; tap anywhere &#10022;</div>
+
+<!-- PAGE 1: AURORA -->
+<section class="scene on" id="s0"><div class="bg" style="--bg:url(assets/aurora.jpg)"></div><canvas id="au"></canvas><div class="shade"></div>
+ <div class="pg mid"><div id="msg" class="rev" data-at="1"><h1>On the auspicious occasion of the birthday of a person with an aura that mesmerizes</h1><button class="btn" id="start">&#10024; Let's get started</button></div></div></section>
+
+<!-- PAGE 2: LETTER (left) + SHAYARI (right) -->
+<section class="scene" id="s1"><div class="bg" style="--bg:url(assets/gazebo.jpg)"></div><div class="shade lite"></div>
+ <div class="pg"><div class="sp" style="height:26vh"></div>
+ <div class="pn l2 rev" data-at="0" style="--d:.5s">
+<span class="cau">Caution :- Please have insulin tablets (Diabetes) nearby.</span>
+<p class="h">My dear friend Vaishnavi,</p>
+<p>I have always been wondering what has the creator thought of while creating such a personality like you - maybe he was in such a calm and gentle atmosphere that all the soothness got poured in your personality, all the merry and beauty got bestowed upon you, all the patience and stillness soaked within you. Tried to create such an environment behind but then realised such environments can only be created by the creator for the chosen ones.....</p>
+<p class="em">This was the imaginary part kind of you may say (Fatima teacher style)....</p>
+</div>
+ <div class="pn r2 rev" data-at="1" style="--d:.5s">
+<p class="h">Now welcome to my style:-</p>
+<p class="em">Iss shubh avsar pr arz kiya hai :-</p>
+<p class="sh">Chand aaj kuch zyada roshan hai,<br>Havaon me bhi jaise koi narmi si ghuli hai,<br>Sitaaro ki chamak mano badh si gayi hai,<br>Paani ka rang aur thoda gehra ho gya hai,</p>
+<p class="sh">Maano in sab ko iss baat ka ehsaas hai,<br>Ki iss pal me kuch to khaas hai,<br>Jb gaur farmaya in sbne iss satah par,<br>Tb pata chala ye pal nahi ye to uss shaks ki mithaas hai,</p>
+<p class="sh">Jiska aaj janamdin hai,<br>Khushi un sbko bhi iss baat ki hai,<br>Ab wo shaks jo sbki khushi me apni khushi dhundta hai,<br>Wahi to sbki khushi ka karan kehlata hai,</p>
+<p class="sh">Aisihi meri ek dost ka aaj janamdin hai,<br>To wahi roshni, wahi narmi, wahi chamak aur usi gehrayi ko<br>Inn shabdon me piroke ham apna bhaag nibhate hai<br>Aur aapko iss avsar par dhero shubkamnaye saunpte hai</p>
+</div></div></section>
+
+<!-- PAGE 3: FRIENDSHIP -->
+<section class="scene" id="s2"><div class="bg" style="--bg:url(assets/friends.jpg)"></div>
+ <div class="pg"><div class="sp"></div><div class="pn p3 rev" data-at="1" style="--d:.9s">
+<p class="h">This is us, Vaishnavi</p>
+<p>Look at these two, sitting side by side. No words are needed &mdash; just being together is enough, and that is exactly how I feel about us.</p>
+<p>One of them points to the sky, the way we share our dreams, our little discoveries and the moments that quietly become memories. That shooting star is every wish and hope we have shared with each other.</p>
+<p>The moon stays calm and constant &mdash; even when life changes, some friendships are always quietly there. And every floating lantern is a memory, slowly lighting up our journey.</p>
+<p>The old stones remind us that time passes and everything around us keeps changing, yet our friendship remains a part of the story. Down below, the town glows and the world carries on, but in this moment the two of us have a little world of our own.</p>
+<p class="em">And the Milky Way &mdash; one moment may look so small, yet it can mean so much in the larger story of your life.</p>
+</div></div></section>
+
+<!-- PAGE 4: ROSE GARDEN LETTER -->
+<section class="scene" id="s3"><div class="bg" style="--bg:url(assets/roses.jpg)"></div><div class="fx" id="petals"></div>
+ <div class="pg"><div class="sp"></div><div class="pn p4 rev" data-at="1" style="--d:.9s">
+<p class="h">Dear bestfriend,</p>
+<p>I have always wanted to share such a beautiful bond and I am thankful for your presence... I might get annoying sometimes but you bearing me despite it being opposite to your nature makes you even special for me (Though I wont stop doing it...).</p>
+<p>I am very glad to have such a caring and kind friend who checks on me time to time, you really seem to be &ldquo;Elsa&rdquo; from frozen (Why to seem though you are already a princess).</p>
+<p>Your emotional depth and sensitivity defines you being a Lana Del Rey fan.... your portrayal of different moods elegantly like the flavours get mixed like the very &ldquo;chat&rdquo; you like, the more the flavours burst the more they add to the taste....</p>
+<p>I will always wish that you get to paint the canvas of your life with the colors of your choice as I know it will only lead to another masterpiece knowing the artist you are.....</p>
+<p class="em">Lastly I wish you a very happy birthday, keep growing and shining like the bright moon here, keep blooming as the <span class="rose-word">roses</span> below and help surroundings look more gracious by your presence......</p>
+</div></div>
+ <div class="last-note rev" data-at="2">And one last moment for you, not real though but I hope you like it.....</div></section>
+
+<!-- PAGE 5: LAKESIDE DANCE (last page; song plays here: assets/song.mp3) -->
+<section class="scene" id="s4"><div class="bg kb" style="--bg:url(assets/lakeside.jpg)"></div><div class="fx" id="flies"></div>
+ <div class="music-card" id="musicCard">
+  <div class="music-title">&#9835; A Thousand Years</div>
+  <div class="music-sub">A little song for this moment</div>
+  <div class="music-row">
+   <button class="play-song" id="playSong" type="button" aria-label="Play song">&#9654;</button>
+   <input class="progress" id="progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Song progress">
+   <button class="volume" id="volume" type="button" aria-label="Mute song">&#128266;</button>
+  </div>
+  <div class="music-time"><span id="currentTime">0:00</span><span id="duration">0:00</span></div>
+  <div class="music-status" id="musicStatus">Tap play if the music doesn't start automatically.</div>
+ </div>
+</section>
+<script src="script.js"></script></body></html>
